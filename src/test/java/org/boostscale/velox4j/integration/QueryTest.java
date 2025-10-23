@@ -15,26 +15,26 @@
  * limitations under the License.
  */
 
-package io.github.zhztheplayer.velox4j.integration;
+package org.boostscale.velox4j.integration;
 
-import io.github.zhztheplayer.velox4j.Velox4j;
-import io.github.zhztheplayer.velox4j.arrow.Arrow;
-import io.github.zhztheplayer.velox4j.config.Config;
-import io.github.zhztheplayer.velox4j.config.ConnectorConfig;
-import io.github.zhztheplayer.velox4j.connector.*;
-import io.github.zhztheplayer.velox4j.data.RowVector;
-import io.github.zhztheplayer.velox4j.iterator.UpIterators;
-import io.github.zhztheplayer.velox4j.memory.AllocationListener;
-import io.github.zhztheplayer.velox4j.memory.MemoryManager;
-import io.github.zhztheplayer.velox4j.plan.TableScanNode;
-import io.github.zhztheplayer.velox4j.query.Query;
-import io.github.zhztheplayer.velox4j.query.SerialTask;
-import io.github.zhztheplayer.velox4j.session.Session;
-import io.github.zhztheplayer.velox4j.test.ResourceTests;
-import io.github.zhztheplayer.velox4j.type.BigIntType;
-import io.github.zhztheplayer.velox4j.type.RowType;
-import io.github.zhztheplayer.velox4j.type.Type;
-import io.github.zhztheplayer.velox4j.type.VarCharType;
+import org.boostscale.velox4j.Velox4j;
+import org.boostscale.velox4j.arrow.Arrow;
+import org.boostscale.velox4j.config.Config;
+import org.boostscale.velox4j.config.ConnectorConfig;
+import org.boostscale.velox4j.connector.*;
+import org.boostscale.velox4j.data.RowVector;
+import org.boostscale.velox4j.iterator.UpIterators;
+import org.boostscale.velox4j.memory.AllocationListener;
+import org.boostscale.velox4j.memory.MemoryManager;
+import org.boostscale.velox4j.plan.TableScanNode;
+import org.boostscale.velox4j.query.Query;
+import org.boostscale.velox4j.query.SerialTask;
+import org.boostscale.velox4j.session.Session;
+import org.boostscale.velox4j.test.ResourceTests;
+import org.boostscale.velox4j.type.BigIntType;
+import org.boostscale.velox4j.type.RowType;
+import org.boostscale.velox4j.type.Type;
+import org.boostscale.velox4j.type.VarCharType;
 import org.apache.arrow.memory.RootAllocator;
 import org.apache.arrow.vector.VectorSchemaRoot;
 import org.junit.Test;
