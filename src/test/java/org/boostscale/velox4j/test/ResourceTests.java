@@ -1,7 +1,7 @@
-package io.github.zhztheplayer.velox4j.test;
+package org.boostscale.velox4j.test;
 
-import io.github.zhztheplayer.velox4j.jni.JniWorkspace;
-import io.github.zhztheplayer.velox4j.resource.Resources;
+import org.boostscale.velox4j.jni.JniWorkspace;
+import org.boostscale.velox4j.resource.Resources;
 
 import java.io.ByteArrayOutputStream;
 import java.io.File;
