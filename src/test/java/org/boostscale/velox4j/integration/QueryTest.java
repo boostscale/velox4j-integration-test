@@ -68,7 +68,6 @@ public class QueryTest {
         new HiveTableHandle(
             "connector-hive",
             "table-1",
-            false,
             List.of(),
             null,
             outputType,
